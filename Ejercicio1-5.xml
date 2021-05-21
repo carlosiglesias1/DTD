@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+    DTD - Ejercicio 1-5 - Animales
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE animales [
+
+<!ELEMENT animales (animal*)>
+
+<!ELEMENT animal (#PCDATA)>
+
+]>
+
+<animales>
+
+<perro>Caniche</perro>
+
+<gato>Siamés</gato>
+
+</animales>
+-->
+<!DOCTYPE animales [
+
+<!ELEMENT animales (animal*)>
+
+<!ELEMENT animal (#PCDATA)>
+
+]>
+
+<animales>
+
+<animal>Caniche</animal>
+
+<animal>Gato Siamés</animal>
+
+</animales>
