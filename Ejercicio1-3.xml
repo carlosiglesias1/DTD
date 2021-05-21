@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- DTD - Ejercicio 1-3 - Colores
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE colores [
+
+<!ELEMENT colores (color*)>
+
+<!ELEMENT color (#PCDATA)>
+
+]>
+
+<colores>
+
+<color>azul marino</color>
+
+negro
+
+<color>amarillo</color>
+
+</colores>-->
+<!DOCTYPE colores [
+    <!ELEMENT colores (color*)>
+    <!ELEMENT color (#PCDATA)>
+]>
+
+<colores>
+
+    <color>azul marino</color>
+
+    <color>amarillo</color>
+
+</colores>
