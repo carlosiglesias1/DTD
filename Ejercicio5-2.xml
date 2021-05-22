@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Se quiere definir un lenguaje de marcas para representar los resultados de una liga de fútbol. 
+    La información que se quiere almacenar de cada partido es:
+        el nombre del equipo local
+        el nombre del equipo visitante
+        los goles marcados por el equipo local
+        los goles marcados por el equipo visitante
+    Escribe tres documentos que incluyan los siguientes resultados:
+        Nottingham Presa: 0 - Inter de Mitente: 1
+        Vodka Juniors: 3 - Sparta da Risa: 3
+        Water de Múnich: 4 - Esteaua es del grifo: 2
+    Cada documento incluirá un DTD diferente para representar ese lenguaje de marcas:
+        una DTD en la que no haya atributos, sino únicamente etiquetas
+        una DTD en la que los goles sean atributos
+        una DTD en la que toda la información se guarde en forma de atributos-->
+<!DOCTYPE resultados [
+    <!ELEMENT resultados (resultado*)>
+    <!ELEMENT resultado (local, visitante)>
+    <!ATTLIST resultado golesLocal NMTOKEN #REQUIRED>
+    <!ATTLIST resultado golesVisitante NMTOKEN #REQUIRED>
+    <!ELEMENT local (#PCDATA)>
+    <!ELEMENT visitante (#PCDATA)>
+]>
+<resultados>
+    <resultado golesLocal="0" golesVisitante="1">
+        <local>Nottingham Presa</local>
+        <visitante>Inter de Mitente</visitante>
+    </resultado>
+    <resultado golesLocal="3" golesVisitante="3">
+        <local>Vodka Juniors</local>
+        <visitante>Sparta de Risa</visitante>
+    </resultado>
+    <resultado golesLocal="4" golesVisitante="2">
+        <local>Water de Múnich</local>
+        <visitante>Esteaua es de grifo</visitante>
+    </resultado>
+</resultados>
