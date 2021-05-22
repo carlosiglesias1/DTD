@@ -8,6 +8,6 @@
 <pelicula titulo="La diligencia" genero="oeste" />-->
 <!DOCTYPE pelicula [
 <!ELEMENT pelicula EMPTY>
-<!ATTLIST pelicula titulo CDATA #IMPLIED genero CDATA #IMPLIED>
+<!ATTLIST pelicula titulo CDATA #IMPLIED>
 ]>
-<pelicula titulo="La diligencia" genero="oeste" />
+<pelicula titulo="La diligencia"/>

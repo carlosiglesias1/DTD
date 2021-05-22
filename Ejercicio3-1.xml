@@ -8,6 +8,6 @@
 <persona dni="03141592E" />-->
 <!DOCTYPE persona [
     <!ELEMENT persona EMPTY>
-    <!ATTLIST persona dni CDATA #IMPLIED>
+    <!ATTLIST persona nombre CDATA #IMPLIED>
 ]>
-<persona dni="03141592E" />
+<persona nombre="03141592E" />

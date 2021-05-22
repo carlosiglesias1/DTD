@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- DTD - Ejercicio 3-5 - Jugadores de fútbol
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE futbol [
+<!ELEMENT futbol (jugador*)>
+<!ELEMENT jugador EMPTY>
+<!ATTLIST jugador nombre NMTOKENS #REQUIRED>
+<!ATTLIST jugador codigo ID #REQUIRED>
+]>
+<futbol>
+<jugador nombre="Alfredo Di Stéfano" codigo="1"/>
+<jugador nombre="Edson Arantes do Nascimento, Pelé" codigo="2" />
+<jugador nombre="Diego Armando Maradona" codigo="3" />
+<jugador nombre="Johan Cruyff" codigo="4" />
+</futbol>-->
+<!DOCTYPE futbol [
+    <!ELEMENT futbol (jugador*)>
+    <!ELEMENT jugador EMPTY>
+    <!ATTLIST jugador nombre NMTOKENS #REQUIRED>
+    <!ATTLIST jugador codigo ID #REQUIRED>
+]>
+<futbol>
+    <jugador nombre="Alfredo Di Stéfano" codigo="ADS" />
+    <jugador nombre="Edson Arantes do Nascimento - Pelé" codigo="PELE" />
+    <jugador nombre="Diego Armando Maradona" codigo="DAM" />
+    <jugador nombre="Johan Cruyff" codigo="JC" />
+</futbol>

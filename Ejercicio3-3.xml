@@ -14,10 +14,10 @@
 <!DOCTYPE cuadros [
     <!ELEMENT cuadros (cuadro*)>
     <!ELEMENT cuadro EMPTY>
-    <!ATTLIST cuadro titulo CDATA #REQUIRED>
+    <!ATTLIST cuadro titulo ID #REQUIRED>
     <!ATTLIST cuadro autor CDATA #REQUIRED>
 ]>
 <cuadros>
-    <cuadro titulo="Adán y Eva" autor="Alberto Durero" />
-    <cuadro autor="Lucas Cranach, el viejo" titulo="Adán y Eva" />
+    <cuadro titulo="AdYEv" autor="Alberto Durero" />
+    <cuadro autor="Lucas Cranach, el viejo" titulo="CuLO" />
 </cuadros>

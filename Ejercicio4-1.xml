@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- DTD - Ejercicio 4-1 - Libro
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE libro [
+<!ELEMENT libro EMPTY>
+<!ATTLIST libro autor NMTOKEN #REQUIRED>
+]>
+<libro autor="Mario Vargas Llosa" />-->
+<!DOCTYPE libro [
+    <!ELEMENT libro EMPTY>
+    <!ATTLIST libro autor NMTOKENS #REQUIRED>
+]>
+<libro autor="Mario Vargas Llosa" />
