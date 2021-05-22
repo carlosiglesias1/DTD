@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- DTD - Ejercicio 3-2 - Película
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pelicula [
+<!ELEMENT pelicula EMPTY>
+<!ATTLIST pelicula titulo CDATA #IMPLIED>
+]>
+<pelicula titulo="La diligencia" genero="oeste" />-->
+<!DOCTYPE pelicula [
+<!ELEMENT pelicula EMPTY>
+<!ATTLIST pelicula titulo CDATA #IMPLIED genero CDATA #IMPLIED>
+]>
+<pelicula titulo="La diligencia" genero="oeste" />
